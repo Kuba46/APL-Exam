@@ -1,3 +1,4 @@
-/Practice.sln
-/Practice/bin
-/Practice/obj
+*ConsoleApp1.sln
+*bin
+*obj
+*.vs
