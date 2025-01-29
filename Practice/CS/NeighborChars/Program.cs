@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
+// На вход поступает строка. На C# отсортировать строку в массив с соседними элементами. Если длина исходной строки нечётная, то добавить в последнюю пару "_"
+
 class Program
 {
     static void Main()
