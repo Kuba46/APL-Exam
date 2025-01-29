@@ -14,6 +14,9 @@ class Program
         List<int> filteredList = mainArr.Skip(K).ToList();
 
         List<int> result = filteredList.Where(x => x % 2 != 0).OrderByDescending(x => x).ToList();
+        //List<int> result = filteredList.Where(x => x % 2 == 0).OrderByDescending(x => x).ToList();
+        //List<int> result = filteredList.Where(x => x % 2 != 0).Distinct().OrderByDescending(x => x).ToList();
+        //List<int> result = filteredList.Where(x => x % 2 == 0).Distinct().OrderByDescending(x => x).ToList();
 
         result.ForEach(Console.WriteLine);
     }
