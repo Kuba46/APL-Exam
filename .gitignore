@@ -1,5 +1,5 @@
-*ConsoleApp1.sln
 *bin
 *obj
 *.vs
 .fake
+*.sln
